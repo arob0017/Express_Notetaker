@@ -1,22 +1,21 @@
 
 const fs = require("fs");
 let notes = require("../db/db.json")
-
-function apiRoutes(app) {
+module.exports = function (app) {
     fs.readFile("db/db.json", "utf8", (err, data) => {
         if (err) throw err;
 
         var notes = JSON.parse(data);
         // Displays note data
-        app.get("api/notes", (req, res) => {
+        app.get("/api/notes", (req, res) => {
             res.json(notes);
         });
 
         // adds route
         app.post("/api/notes", (req, res) => {
             let newNote = req.body;
-            (notes.length === 0)
-            newNote.push(newNote);
+            // (notes.length === 0)
+            notes.push(newNote);
             updateDb();
             return console.log("Added new note " + newNote.title)
 
@@ -46,4 +45,4 @@ function apiRoutes(app) {
         }
     });
 };
-module.exports = apiRoutes;
+
