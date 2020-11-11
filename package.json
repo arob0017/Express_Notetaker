@@ -9,7 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "inquirer": "^7.3.3"
-  }
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "nanoid": "^3.1.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arob0017/Express_Notetaker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/arob0017/Express_Notetaker/issues"
+  },
+  "homepage": "https://github.com/arob0017/Express_Notetaker#readme"
 }
