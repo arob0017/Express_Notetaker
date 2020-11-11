@@ -1,4 +1,4 @@
-# Express_Notetaker [GitHub top language](https://img.shields.io/github/languages/top/arob0017/Express_Notetaker)
+# Express_Notetaker
 
 Check it out here: https://notetaker133.herokuapp.com/
 
@@ -28,6 +28,7 @@ Check it out here: https://notetaker133.herokuapp.com/
 ![demo image](https://imgur.com/Fhe0avC.jpg)
 
 ## Contributing
+Please submit a Pull request if you would like to contribute to the project
 
 ## License ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
