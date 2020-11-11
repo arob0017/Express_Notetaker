@@ -9,8 +9,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-require("./routes/apiRoutes.js")(app);
-require("./routes/htmlRoutes.js")(app);
+require("./Routes/apiRoutes.js")(app);
+require("./Routes/htmlRoutes.js")(app);
 
 app.listen(PORT, function () {
     console.log("App listening on PORT: " + PORT);
