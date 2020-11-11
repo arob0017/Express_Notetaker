@@ -29,7 +29,7 @@ Check it out here: https://notetaker133.herokuapp.com/
 
 ## Contributing
 
-## License
+## License ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Questions
 Contact me at amroro.code@gmail.com
